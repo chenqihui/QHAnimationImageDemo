@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743D9AC4214A015F00C0A832 /* ymb.png in Resources */ = {isa = PBXBuildFile; fileRef = 743D9AC3214A015F00C0A832 /* ymb.png */; };
+		743D9AC8214A0DC300C0A832 /* ggg.png in Resources */ = {isa = PBXBuildFile; fileRef = 743D9AC7214A0DC300C0A832 /* ggg.png */; };
+		74A82C4E2140CB9400505D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A82C4D2140CB9400505D28 /* AppDelegate.swift */; };
+		74A82C502140CB9400505D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A82C4F2140CB9400505D28 /* ViewController.swift */; };
+		74A82C532140CB9400505D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C512140CB9400505D28 /* Main.storyboard */; };
+		74A82C552140CB9600505D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C542140CB9600505D28 /* Assets.xcassets */; };
+		74A82C582140CB9600505D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C562140CB9600505D28 /* LaunchScreen.storyboard */; };
+		74A82C602140D86400505D28 /* QHAnimationImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A82C5F2140D86400505D28 /* QHAnimationImageViewController.swift */; };
+		74A82C622141080F00505D28 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C612141080F00505D28 /* gif.gif */; };
+		74A82C6521410E3A00505D28 /* test.svga in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C6421410DB500505D28 /* test.svga */; };
+		74A82C6621410E4E00505D28 /* webP.webp in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C6321410D2800505D28 /* webP.webp */; };
+		74A82C69214282A500505D28 /* ymb.webp in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C67214282A500505D28 /* ymb.webp */; };
+		74A82C6A214282A500505D28 /* ymb.svga in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C68214282A500505D28 /* ymb.svga */; };
+		74A82C6C2147BBF300505D28 /* unknown.mov in Resources */ = {isa = PBXBuildFile; fileRef = 74A82C6B2147BBF300505D28 /* unknown.mov */; };
+		74A82C712147BC7D00505D28 /* JPEG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A82C6F2147BC7D00505D28 /* JPEG.swift */; };
+		74A82C722147BC7D00505D28 /* QuickTimeMov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A82C702147BC7D00505D28 /* QuickTimeMov.swift */; };
+		F78F879F7B75D197B664395E /* Pods_QHAnimationImageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70919861FB2DECB83C8A06A9 /* Pods_QHAnimationImageDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13325BA31D9145F573CCA1B6 /* Pods-QHAnimationImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHAnimationImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHAnimationImageDemo/Pods-QHAnimationImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70919861FB2DECB83C8A06A9 /* Pods_QHAnimationImageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QHAnimationImageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743D9AC3214A015F00C0A832 /* ymb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ymb.png; sourceTree = "<group>"; };
+		743D9AC7214A0DC300C0A832 /* ggg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ggg.png; sourceTree = "<group>"; };
+		74A82C4A2140CB9400505D28 /* QHAnimationImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHAnimationImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A82C4D2140CB9400505D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74A82C4F2140CB9400505D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74A82C522140CB9400505D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74A82C542140CB9600505D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74A82C572140CB9600505D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74A82C592140CB9600505D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A82C5F2140D86400505D28 /* QHAnimationImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QHAnimationImageViewController.swift; sourceTree = "<group>"; };
+		74A82C612141080F00505D28 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		74A82C6321410D2800505D28 /* webP.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = webP.webp; sourceTree = "<group>"; };
+		74A82C6421410DB500505D28 /* test.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.svga; sourceTree = "<group>"; };
+		74A82C67214282A500505D28 /* ymb.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = ymb.webp; sourceTree = "<group>"; };
+		74A82C68214282A500505D28 /* ymb.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ymb.svga; sourceTree = "<group>"; };
+		74A82C6B2147BBF300505D28 /* unknown.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = unknown.mov; sourceTree = "<group>"; };
+		74A82C6F2147BC7D00505D28 /* JPEG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPEG.swift; sourceTree = "<group>"; };
+		74A82C702147BC7D00505D28 /* QuickTimeMov.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTimeMov.swift; sourceTree = "<group>"; };
+		A97D76B725E1656DA68443B9 /* Pods-QHAnimationImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHAnimationImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHAnimationImageDemo/Pods-QHAnimationImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A82C472140CB9400505D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78F879F7B75D197B664395E /* Pods_QHAnimationImageDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74A82C412140CB9400505D28 = {
+			isa = PBXGroup;
+			children = (
+				74A82C4C2140CB9400505D28 /* QHAnimationImageDemo */,
+				74A82C4B2140CB9400505D28 /* Products */,
+				A6ECB50BF9582F88B6E4E1ED /* Pods */,
+				CDCF0F419E482C58106AC5A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74A82C4B2140CB9400505D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A82C4A2140CB9400505D28 /* QHAnimationImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A82C4C2140CB9400505D28 /* QHAnimationImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74A82C6E2147BC6100505D28 /* LivePhoto */,
+				74A82C6D2147BC0100505D28 /* Resource */,
+				74A82C4D2140CB9400505D28 /* AppDelegate.swift */,
+				74A82C4F2140CB9400505D28 /* ViewController.swift */,
+				74A82C5F2140D86400505D28 /* QHAnimationImageViewController.swift */,
+				74A82C512140CB9400505D28 /* Main.storyboard */,
+				74A82C542140CB9600505D28 /* Assets.xcassets */,
+				74A82C562140CB9600505D28 /* LaunchScreen.storyboard */,
+				74A82C592140CB9600505D28 /* Info.plist */,
+			);
+			path = QHAnimationImageDemo;
+			sourceTree = "<group>";
+		};
+		74A82C6D2147BC0100505D28 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				743D9AC7214A0DC300C0A832 /* ggg.png */,
+				743D9AC3214A015F00C0A832 /* ymb.png */,
+				74A82C6B2147BBF300505D28 /* unknown.mov */,
+				74A82C68214282A500505D28 /* ymb.svga */,
+				74A82C67214282A500505D28 /* ymb.webp */,
+				74A82C6421410DB500505D28 /* test.svga */,
+				74A82C612141080F00505D28 /* gif.gif */,
+				74A82C6321410D2800505D28 /* webP.webp */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		74A82C6E2147BC6100505D28 /* LivePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				74A82C6F2147BC7D00505D28 /* JPEG.swift */,
+				74A82C702147BC7D00505D28 /* QuickTimeMov.swift */,
+			);
+			path = LivePhoto;
+			sourceTree = "<group>";
+		};
+		A6ECB50BF9582F88B6E4E1ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13325BA31D9145F573CCA1B6 /* Pods-QHAnimationImageDemo.debug.xcconfig */,
+				A97D76B725E1656DA68443B9 /* Pods-QHAnimationImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDCF0F419E482C58106AC5A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70919861FB2DECB83C8A06A9 /* Pods_QHAnimationImageDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74A82C492140CB9400505D28 /* QHAnimationImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A82C5C2140CB9600505D28 /* Build configuration list for PBXNativeTarget "QHAnimationImageDemo" */;
+			buildPhases = (
+				7BA39821803C814581350CEE /* [CP] Check Pods Manifest.lock */,
+				74A82C462140CB9400505D28 /* Sources */,
+				74A82C472140CB9400505D28 /* Frameworks */,
+				74A82C482140CB9400505D28 /* Resources */,
+				7E2DEA36798EDC27983A1369 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHAnimationImageDemo;
+			productName = QHAnimationImageDemo;
+			productReference = 74A82C4A2140CB9400505D28 /* QHAnimationImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74A82C422140CB9400505D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Chen Network Technology";
+				TargetAttributes = {
+					74A82C492140CB9400505D28 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 74A82C452140CB9400505D28 /* Build configuration list for PBXProject "QHAnimationImageDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74A82C412140CB9400505D28;
+			productRefGroup = 74A82C4B2140CB9400505D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A82C492140CB9400505D28 /* QHAnimationImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74A82C482140CB9400505D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A82C6C2147BBF300505D28 /* unknown.mov in Resources */,
+				74A82C582140CB9600505D28 /* LaunchScreen.storyboard in Resources */,
+				74A82C69214282A500505D28 /* ymb.webp in Resources */,
+				74A82C6A214282A500505D28 /* ymb.svga in Resources */,
+				74A82C622141080F00505D28 /* gif.gif in Resources */,
+				74A82C6521410E3A00505D28 /* test.svga in Resources */,
+				743D9AC4214A015F00C0A832 /* ymb.png in Resources */,
+				74A82C552140CB9600505D28 /* Assets.xcassets in Resources */,
+				743D9AC8214A0DC300C0A832 /* ggg.png in Resources */,
+				74A82C532140CB9400505D28 /* Main.storyboard in Resources */,
+				74A82C6621410E4E00505D28 /* webP.webp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BA39821803C814581350CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QHAnimationImageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E2DEA36798EDC27983A1369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QHAnimationImageDemo/Pods-QHAnimationImageDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QHAnimationImageDemo/Pods-QHAnimationImageDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QHAnimationImageDemo/Pods-QHAnimationImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74A82C462140CB9400505D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A82C502140CB9400505D28 /* ViewController.swift in Sources */,
+				74A82C722147BC7D00505D28 /* QuickTimeMov.swift in Sources */,
+				74A82C4E2140CB9400505D28 /* AppDelegate.swift in Sources */,
+				74A82C602140D86400505D28 /* QHAnimationImageViewController.swift in Sources */,
+				74A82C712147BC7D00505D28 /* JPEG.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74A82C512140CB9400505D28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A82C522140CB9400505D28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74A82C562140CB9600505D28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A82C572140CB9600505D28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74A82C5A2140CB9600505D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74A82C5B2140CB9600505D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74A82C5D2140CB9600505D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13325BA31D9145F573CCA1B6 /* Pods-QHAnimationImageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC9Y4K55DX;
+				INFOPLIST_FILE = QHAnimationImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QHAnimationImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74A82C5E2140CB9600505D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97D76B725E1656DA68443B9 /* Pods-QHAnimationImageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC9Y4K55DX;
+				INFOPLIST_FILE = QHAnimationImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QHAnimationImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74A82C452140CB9400505D28 /* Build configuration list for PBXProject "QHAnimationImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A82C5A2140CB9600505D28 /* Debug */,
+				74A82C5B2140CB9600505D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A82C5C2140CB9600505D28 /* Build configuration list for PBXNativeTarget "QHAnimationImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A82C5D2140CB9600505D28 /* Debug */,
+				74A82C5E2140CB9600505D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74A82C422140CB9400505D28 /* Project object */;
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Ui-DG-pXt">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QHAnimationImageDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yvm-6Z-sFt">
+                                <rect key="frame" x="153" y="208.5" width="69" height="30"/>
+                                <state key="normal" title="Animation"/>
+                                <connections>
+                                    <action selector="animationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CLa-78-wr2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJc-h5-vCH">
+                                <rect key="frame" x="167" y="328.5" width="41" height="30"/>
+                                <state key="normal" title="WebP"/>
+                                <connections>
+                                    <action selector="webPAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xca-GK-z4q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWv-mp-DCS">
+                                <rect key="frame" x="170" y="388.5" width="34" height="30"/>
+                                <state key="normal" title="Svga"/>
+                                <connections>
+                                    <action selector="svgaAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FlX-21-FvP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJB-5g-kPa">
+                                <rect key="frame" x="172.5" y="268.5" width="30" height="30"/>
+                                <state key="normal" title="GIF"/>
+                                <connections>
+                                    <action selector="gifAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nDJ-SS-wyX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECq-1A-oBT">
+                                <rect key="frame" x="152.5" y="448.5" width="69" height="30"/>
+                                <state key="normal" title="LivePhoto"/>
+                                <connections>
+                                    <action selector="livePhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yl9-gW-zsl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O12-gZ-Tf0">
+                                <rect key="frame" x="242.5" y="268.5" width="63" height="30"/>
+                                <state key="normal" title="Pngs2Gif"/>
+                                <connections>
+                                    <action selector="pngs2GifAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Vz-ve-zYu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O12-gZ-Tf0" firstAttribute="top" secondItem="DJB-5g-kPa" secondAttribute="top" id="BCI-T3-S76"/>
+                            <constraint firstItem="DJB-5g-kPa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="JsG-QL-DU5"/>
+                            <constraint firstItem="O12-gZ-Tf0" firstAttribute="leading" secondItem="DJB-5g-kPa" secondAttribute="trailing" constant="40" id="Lf5-c1-pE1"/>
+                            <constraint firstItem="LJc-h5-vCH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OhA-85-pPj"/>
+                            <constraint firstItem="ECq-1A-oBT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PZi-ri-ayH"/>
+                            <constraint firstItem="Yvm-6Z-sFt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="esp-Ge-3eD"/>
+                            <constraint firstItem="DJB-5g-kPa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fk5-eV-sy6"/>
+                            <constraint firstItem="WWv-mp-DCS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fzG-Rz-kpt"/>
+                            <constraint firstItem="LJc-h5-vCH" firstAttribute="top" secondItem="DJB-5g-kPa" secondAttribute="bottom" constant="30" id="ghV-ph-5cW"/>
+                            <constraint firstItem="WWv-mp-DCS" firstAttribute="top" secondItem="LJc-h5-vCH" secondAttribute="bottom" constant="30" id="q2u-kb-L61"/>
+                            <constraint firstItem="ECq-1A-oBT" firstAttribute="top" secondItem="WWv-mp-DCS" secondAttribute="bottom" constant="30" id="swk-Yy-aYi"/>
+                            <constraint firstItem="DJB-5g-kPa" firstAttribute="top" secondItem="Yvm-6Z-sFt" secondAttribute="bottom" constant="30" id="w2C-aV-y4b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bIt-bd-5ZJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="133"/>
+        </scene>
+        <!--Animation Image View Controller-->
+        <scene sceneID="bej-sa-gWk">
+            <objects>
+                <viewController storyboardIdentifier="QHAnimationImageViewController" id="Jhx-Nd-5Cl" customClass="QHAnimationImageViewController" customModule="QHAnimationImageDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FgX-6G-Nad">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uZs-o2-2e7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I0J-F2-Oir" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1103" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nF1-IV-lu7">
+            <objects>
+                <navigationController id="0Ui-DG-pXt" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4fv-nE-dYD">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="aA8-Wd-cXV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AiA-sg-ZKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602" y="133"/>
+        </scene>
+    </scenes>
+</document>
