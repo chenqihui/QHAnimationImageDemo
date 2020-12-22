@@ -1,0 +1,40 @@
+PODS:
+  - Protobuf (3.14.0)
+  - SSZipArchive (1.8.1)
+  - SVGAPlayer (2.5.6):
+    - SVGAPlayer/Core (= 2.5.6)
+    - SVGAPlayer/ProtoFiles (= 2.5.6)
+  - SVGAPlayer/Core (2.5.6):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.6):
+    - Protobuf (~> 3.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+
+DEPENDENCIES:
+  - Protobuf (~> 3.4)
+  - SSZipArchive (~> 1.8.1)
+  - SVGAPlayer
+  - YYImage
+  - YYImage/WebP
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
+    - SSZipArchive
+    - SVGAPlayer
+    - YYImage
+
+SPEC CHECKSUMS:
+  Protobuf: 0cde852566359049847168e51bd1c690e0f70056
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+  SVGAPlayer: f3b3792ae66f7cb3f944ae373a40864db9a04331
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: bd6b7f6b43f6391f0aa252f57594eb47280a30c8
+
+COCOAPODS: 1.8.4
